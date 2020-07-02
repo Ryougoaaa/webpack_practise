@@ -61,7 +61,8 @@ module.exports = {
             loader: 'file-loader',
             options: {
               esModule: false,
-              name: 'images/[name].[ext].png'
+              name: 'images/[name].[ext]',
+              publicPath: '/',
             },
           },
           {
